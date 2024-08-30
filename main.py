@@ -5,7 +5,11 @@ import selenium
 from selenium.webdriver.chrome.options import Options as options
 from selenium.webdriver.common.by import By
 from interface.interface import interface
+from keep_alive import keep_alive
+import os
 import sys
+
+keep_alive()
 
 banner = """
 Modified by:
